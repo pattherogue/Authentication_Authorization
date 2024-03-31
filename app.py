@@ -1,6 +1,6 @@
 # Import necessary modules and classes from Flask and project files
 from flask import Flask, render_template, redirect, session
-from flask_debugtoolbar import DebugToolbarExtension
+
 from werkzeug.exceptions import Unauthorized
 
 from models import connect_db, db, User, Feedback  # Importing models from project files
@@ -17,7 +17,7 @@ app.config['SECRET_KEY'] = "shhhhh"  # Secret key for session management
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False  # Debug toolbar configuration
 
 # Enable DebugToolbarExtension for debugging
-toolbar = DebugToolbarExtension(app)
+
 
 # Connect to the database
 connect_db(app)
