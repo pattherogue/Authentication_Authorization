@@ -10,7 +10,7 @@ from forms import RegisterForm, LoginForm, FeedbackForm, DeleteForm  # Importing
 app = Flask(__name__)
 
 # Configure the app
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///flask-feedback"  # Database URI
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///flask_feedback"  # Database URI
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Avoiding excessive database tracking
 app.config['SQLALCHEMY_ECHO'] = True  # Echo SQL queries to console for debugging
 app.config['SECRET_KEY'] = "shhhhh"  # Secret key for session management
