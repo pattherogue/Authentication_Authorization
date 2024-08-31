@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Flask-based web application that allows users to register, log in, and manage feedback entries. It provides a simple interface for users to submit feedback, view their feedback, and manage their profiles.
+This project is a Flask-based web application developed with Python, enabling users to register, log in, and manage their feedback entries. Leveraging Python's Flask framework, the application provides an intuitive interface for users to submit feedback, view their feedback, and manage their profiles.
 
 ## Project Structure
 
