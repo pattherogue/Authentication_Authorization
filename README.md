@@ -54,7 +54,3 @@ This project is a Flask-based web application that allows users to register, log
 ### License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Would you like to make any adjustments or include additional details in this draft?
